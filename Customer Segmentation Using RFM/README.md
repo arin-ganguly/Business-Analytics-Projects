@@ -16,87 +16,9 @@ RFM stands for:
 * **Frequency (F)** → How often a customer makes purchases
 * **Monetary (M)** → How much money a customer spends
 
-Each customer is scored (typically from 1 to 5) for each of these factors.
+![Concept](Concept.png)
 
-👉 Example:
-
-* R = 5 → Very recent purchase
-* F = 5 → Frequent buyer
-* M = 5 → High spender
-
-These scores are combined to segment customers into meaningful groups.
-
----
-
-## 🎯 Why RFM Analysis is Important
-
-RFM analysis is widely used in **business analytics, marketing, and CRM** because:
-
-### ✅ 1. Identifies High-Value Customers
-
-Helps businesses find **top customers (Champions)** who contribute the most revenue.
-
-### ✅ 2. Improves Customer Retention
-
-Detects **At Risk** and **Hibernating** customers, allowing timely re-engagement strategies.
-
-### ✅ 3. Enables Targeted Marketing
-
-Different segments can be targeted with different campaigns:
-
-* Champions → Loyalty rewards
-* New Customers → Onboarding offers
-* At Risk → Discounts or reminders
-
-### ✅ 4. Increases Revenue
-
-By focusing on the right customer groups, companies can:
-
-* Upsell
-* Cross-sell
-* Reduce churn
-
-### ✅ 5. Data-Driven Decision Making
-
-Transforms raw transaction data into **actionable insights**.
-
----
-
-## 📂 Dataset Description
-
-The dataset contains customer transaction data with the following key fields:
-
-* CustomerID
-* Recency (days since last purchase)
-* Frequency (number of purchases)
-* Monetary (total spend)
-
----
-
-## ⚙️ Methodology
-
-1. **Data Cleaning & Preparation**
-
-   * Processed raw transaction data
-   * Calculated Recency, Frequency, Monetary values
-
-2. **Scoring**
-
-   * Assigned scores (1–5) to R, F, M based on quantiles
-
-3. **Segmentation**
-
-   * Created segments using DAX logic:
-
-     * Champion
-     * Loyal Customer
-     * Potential Loyalist
-     * New Customer
-     * At Risk
-     * Hibernating
-     * etc.
-
-4. **Visualization**
+**Visualization**
 
    * Built interactive Power BI dashboard:
 
