@@ -7,7 +7,7 @@ This project focuses on **customer segmentation using RFM (Recency, Frequency, M
 The dashboard is built using **Power BI**, providing interactive insights into different customer segments such as Champions, Loyal Customers, At Risk customers, etc.
 
 ---
-![RFM analysis Dashboard](/Dashboard_Screenshot.png)
+![RFM analysis Dashboard](Dashboard_Screenshot.png)
 ## 🧠 What is RFM Analysis?
 
 RFM stands for:
